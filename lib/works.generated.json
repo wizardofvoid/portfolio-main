@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "website-vulnerability-scanner",
+    "name": "Website Vulnerability Scanner",
+    "year": 2026,
+    "month": 7,
+    "tech": [
+      "Python"
+    ],
+    "cat": "Tools",
+    "repoUrl": "https://github.com/wizardofvoid/website-vulnerability-scanner",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "obsidian-pdf-chatbot",
+    "name": "Obsidian PDF Chatbot",
+    "year": 2026,
+    "month": 6,
+    "tech": [
+      "Python"
+    ],
+    "cat": "AI/ML",
+    "repoUrl": "https://github.com/wizardofvoid/obsidian-pdf-chatbot",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "bone-scaffold",
+    "name": "Bone Scaffold",
+    "year": 2026,
+    "month": 5,
+    "tech": [
+      "Python"
+    ],
+    "cat": "Tools",
+    "repoUrl": "https://github.com/wizardofvoid/bone-scaffold",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "multiPDF-chatbot",
+    "name": "Multi PDF Chatbot",
+    "year": 2026,
+    "month": 5,
+    "tech": [
+      "Python"
+    ],
+    "cat": "AI/ML",
+    "repoUrl": "https://github.com/wizardofvoid/multiPDF-chatbot",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "obsidian-linker",
+    "name": "Obsidian Linker",
+    "year": 2026,
+    "month": 5,
+    "tech": [
+      "Python"
+    ],
+    "cat": "AI/ML",
+    "repoUrl": "https://github.com/wizardofvoid/obsidian-linker",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "obsidian-vault",
+    "name": "Obsidian Vault",
+    "year": 2026,
+    "month": 5,
+    "tech": [],
+    "cat": "Tools",
+    "repoUrl": "https://github.com/wizardofvoid/obsidian-vault",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "resume_feedback",
+    "name": "Resume Feedback",
+    "year": 2026,
+    "month": 3,
+    "tech": [
+      "Python"
+    ],
+    "cat": "AI/ML",
+    "repoUrl": "https://github.com/wizardofvoid/resume_feedback",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "portfolio-anusha",
+    "name": "Portfolio Anusha",
+    "year": 2025,
+    "month": 10,
+    "tech": [
+      "TypeScript"
+    ],
+    "cat": "Full-stack",
+    "repoUrl": "https://github.com/wizardofvoid/portfolio-anusha",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "heart_disease",
+    "name": "Heart Disease",
+    "year": 2025,
+    "month": 9,
+    "tech": [
+      "Jupyter Notebook"
+    ],
+    "cat": "AI/ML",
+    "repoUrl": "https://github.com/wizardofvoid/heart_disease",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "Portfolio",
+    "name": "Portfolio",
+    "year": 2025,
+    "month": 8,
+    "tech": [
+      "JavaScript"
+    ],
+    "cat": "Full-stack",
+    "repoUrl": "https://github.com/wizardofvoid/Portfolio",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "student-performance-predictor",
+    "name": "Student Performance Predictor",
+    "year": 2025,
+    "month": 7,
+    "tech": [
+      "Jupyter Notebook"
+    ],
+    "cat": "AI/ML",
+    "repoUrl": "https://github.com/wizardofvoid/student-performance-predictor",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "DiceGame",
+    "name": "Dice Game",
+    "year": 2025,
+    "month": 3,
+    "tech": [
+      "JavaScript"
+    ],
+    "cat": "Coursework",
+    "repoUrl": "https://github.com/wizardofvoid/DiceGame",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "DrumKit",
+    "name": "Drum Kit",
+    "year": 2025,
+    "month": 3,
+    "tech": [
+      "JavaScript"
+    ],
+    "cat": "Coursework",
+    "repoUrl": "https://github.com/wizardofvoid/DrumKit",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "E-learning-Platform",
+    "name": "E Learning Platform",
+    "year": 2025,
+    "month": 3,
+    "tech": [
+      "JavaScript"
+    ],
+    "cat": "Full-stack",
+    "repoUrl": "https://github.com/wizardofvoid/E-learning-Platform",
+    "liveUrl": null,
+    "desc": ""
+  },
+  {
+    "slug": "CSS-Portfolio",
+    "name": "CSS Portfolio",
+    "year": 2025,
+    "month": 2,
+    "tech": [
+      "HTML"
+    ],
+    "cat": "Coursework",
+    "repoUrl": "https://github.com/wizardofvoid/CSS-Portfolio",
+    "liveUrl": null,
+    "desc": "This is a basic portfolio website made using basic tags of HTML and CSS."
+  },
+  {
+    "slug": "FeetToMeters-app",
+    "name": "Feet To Meters App",
+    "year": 2025,
+    "month": 1,
+    "tech": [
+      "Python"
+    ],
+    "cat": "Coursework",
+    "repoUrl": "https://github.com/wizardofvoid/FeetToMeters-app",
+    "liveUrl": null,
+    "desc": "Learning how to use Tkinter library in python to make GUI for an app"
+  },
+  {
+    "slug": "Code-a-thon",
+    "name": "Code A Thon",
+    "year": 2024,
+    "month": 8,
+    "tech": [
+      "CSS"
+    ],
+    "cat": "Coursework",
+    "repoUrl": "https://github.com/wizardofvoid/Code-a-thon",
+    "liveUrl": null,
+    "desc": "Team ReCodex"
+  },
+  {
+    "slug": "ListXchange",
+    "name": "List Xchange",
+    "year": 2023,
+    "month": 9,
+    "tech": [
+      "CSS"
+    ],
+    "cat": "Full-stack",
+    "repoUrl": "https://github.com/wizardofvoid/ListXchange",
+    "liveUrl": null,
+    "desc": ""
+  }
+]
