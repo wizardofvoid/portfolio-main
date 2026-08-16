@@ -144,7 +144,7 @@ nextjs-portfolio/
 │   ├── data.js             # Centralized content store (All strings, objects, metrics, modal metadata)
 │   └── codolio.js          # Server-only fetch + normalise of live Codolio coding stats
 ├── public/
-│   ├── Ayush-Saraf-Resume.pdf     # SDE resume — linked from the hero "RESUME.PDF" button
+│   ├── Ayush-Saraf-Resume.pdf     # SDE resume — shipped but no longer linked (hero points at Drive)
 │   └── Ayush-Saraf-Resume-AI.pdf  # AI/ML variant — shipped but not linked
 ├── next.config.mjs         # Next.js configuration
 ├── package.json            # Node dependencies & project scripts
@@ -159,7 +159,7 @@ nextjs-portfolio/
 
 All dynamic data is exported as named ES Module constants:
 
-1. `resumeHref`: Points to `/Ayush-Saraf-Resume.pdf` (the SDE-targeted resume). The AI/ML-targeted variant also ships at `/Ayush-Saraf-Resume-AI.pdf` and is currently unlinked.
+1. `resumeHref`: Points to the Google Drive copy of the SDE-targeted resume, opened in a new tab from the hero "RESUME.PDF" button — hosting it off-site means the resume can be swapped without a redeploy. Local copies still ship at `/Ayush-Saraf-Resume.pdf` and `/Ayush-Saraf-Resume-AI.pdf` but are unlinked.
 2. `marqueeItems`: Array of punchy slogan strings for the continuous ticker.
 3. `navItems`: Navigation items (`Home`, `About`, `Skills`, `Work`, `Experience`, `Education`, `Contact`) with matching hash IDs.
 4. `sectionTags`: Index tags mapping section keys to numerical identifiers (`01 / ABOUT`, `02 / TOOLKIT`, etc.).
@@ -242,7 +242,7 @@ The main orchestrator. It sets up fixed positioning layers:
 - **Main Section Stack (z-index: 5)**: Renders `Hero` -> `Marquee` -> `About` -> `Skills` -> `Projects` -> `Experience` -> `Education` -> `Contact`.
 
 ### 4. Presentational Section Components
-- `Hero.jsx`: Features a dual view mode: standard long intro vs concise **TL;DR** mode, controlled via a toggle switch. Includes magnetic buttons and direct resume download.
+- `Hero.jsx`: Features a dual view mode: standard long intro vs concise **TL;DR** mode, controlled via a toggle switch. Includes magnetic buttons and a resume link that opens the hosted Drive copy in a new tab.
 - `About.jsx`: Formatted into three distinct paragraph blocks with alternating text alignments (`left`, `left`, `right`) and highlighted key phrases.
 - `Skills.jsx`: A desktop accordion using horizontal flex distribution (`data-acc` / `data-panel`); hover or click expands a category. On mobile (`<860px`) `globals.css` converts it to stacked cards.
 

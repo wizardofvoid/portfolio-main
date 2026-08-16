@@ -19,10 +19,10 @@ export default function Hero() {
       </div>
 
       <a
-        href={resumeHref} download data-hero data-magnetic className="resume-btn"
+        href={resumeHref} target="_blank" rel="noopener noreferrer" data-hero data-magnetic className="resume-btn"
         style={{ position: 'absolute', top: 'clamp(18px,3vh,30px)', right: 'clamp(16px,6vw,72px)', zIndex: 10, padding: 'clamp(9px,1.2vh,13px) clamp(13px,1.6vw,22px)', border: '1px solid var(--border-2)', borderRadius: '10px', fontFamily: "'JetBrains Mono',monospace", fontSize: 'clamp(10px,1.1vw,12px)', letterSpacing: '1px', color: 'var(--text-2)', transition: 'all .3s', whiteSpace: 'nowrap' }}
       >
-        ⤓ RESUME.PDF
+        ↗ RESUME.PDF
       </a>
 
       <div data-hpx style={{ position: 'relative', zIndex: 2, willChange: 'transform,opacity' }}>

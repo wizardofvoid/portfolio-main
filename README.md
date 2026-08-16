@@ -47,8 +47,8 @@ lib/
 scripts/
   fetch-works.mjs # regenerates works.generated.json from the GitHub API
 public/
-  Ayush-Saraf-Resume.pdf      # SDE resume — linked from the hero "RESUME.PDF" button
-  Ayush-Saraf-Resume-AI.pdf   # AI/ML variant — shipped but not linked (swap `resumeHref` to use it)
+  Ayush-Saraf-Resume.pdf      # SDE resume — shipped but unlinked; the hero button points at Drive
+  Ayush-Saraf-Resume-AI.pdf   # AI/ML variant — shipped but not linked (point `resumeHref` here to use it)
 ```
 
 ### How the effects work
