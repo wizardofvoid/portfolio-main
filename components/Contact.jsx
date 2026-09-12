@@ -66,7 +66,7 @@ export default function Contact() {
         ))}
       </div>
       <div className="contact-footer" style={{ marginTop: '80px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px', paddingTop: '26px', borderTop: '1px solid var(--border)', fontFamily: "'JetBrains Mono',monospace", fontSize: '11px', color: 'var(--text-3)' }}>
-        <span>© 2026 AYUSH SARAF</span>
+        <span>© {new Date().getFullYear()} AYUSH SARAF</span>
         <span>STILL BUILDING ✦ ALWAYS SHIPPING</span>
       </div>
     </section>

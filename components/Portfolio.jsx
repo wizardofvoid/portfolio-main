@@ -29,6 +29,7 @@ import Projects from './Projects';
 import Experience from './Experience';
 import Education from './Education';
 import Contact from './Contact';
+import ChatBot from './ChatBot';
 
 /* Only what the hover preview renders — kept out of the effect body so the
    controller stays about behaviour, not content. */
@@ -817,8 +818,7 @@ export default function Portfolio({ codolio = null }) {
       <canvas ref={canvasRef} style={{ position: 'fixed', inset: 0, width: '100%', height: '100%', zIndex: 0, pointerEvents: 'none', opacity: 0.55 }} />
       <div style={{ position: 'fixed', inset: 0, zIndex: 1, pointerEvents: 'none', background: 'radial-gradient(circle at 78% 12%,color-mix(in oklab, var(--accent-3) 12%, transparent),transparent 42%),radial-gradient(circle at 8% 88%,color-mix(in oklab, var(--accent-2) 12%, transparent),transparent 44%)' }} />
 
-      {/* custom cursor — hidden on touch devices via CSS */}
-      {/* custom cursor — shared with /work, see components/Cursor.jsx */}
+      {/* custom cursor — hidden on touch devices via CSS, shared with /work (components/Cursor.jsx) */}
       <Cursor />
 
       {/* cinematic intro */}
@@ -836,10 +836,9 @@ export default function Portfolio({ codolio = null }) {
         <div ref={flashRef} style={{ position: 'absolute', inset: 0, zIndex: 5, background: 'radial-gradient(circle at 50% 50%,var(--flash),var(--flash-2))', opacity: 0, pointerEvents: 'none' }} />
       </div>
 
-      {/* Reduced-motion loading screen. The cinematic intro above is pure motion,
-          so it's suppressed for those users — this is the calm equivalent. Which
-          one is visible is decided by a CSS media query (see globals.css), not by
-          JS, so the correct loader covers the page from the very first paint. */}
+      {/* WebGL fallback loader. If the canvas probe above fails (no WebGL context),
+          the cinematic intro is skipped entirely and this calm loader covers the
+          paint instead. CSS keeps it hidden ([data-simpleload]) until JS needs it. */}
       <div
         ref={simpleLoadRef} data-simpleload role="status" aria-live="polite" aria-label="Loading"
         style={{ position: 'fixed', inset: 0, zIndex: 10000, background: 'radial-gradient(circle at 50% 42%,var(--surface),var(--bg-deep) 74%)', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '6vh 7vw', overflow: 'hidden', transition: 'opacity .45s ease,visibility .45s' }}
@@ -922,6 +921,9 @@ export default function Portfolio({ codolio = null }) {
         <Education />
         <Contact />
       </main>
+
+      {/* RAG Chatbot */}
+      <ChatBot />
     </div>
   );
 }

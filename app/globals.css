@@ -138,9 +138,7 @@ button:focus-visible,
 .resume-btn:hover { border-color: var(--border-2) !important; background: var(--surface); }
 .chip:hover { border-color: color-mix(in oklab, var(--accent) 50%, transparent) !important; color: var(--text) !important; background: color-mix(in oklab, var(--accent) 12%, transparent) !important; }
 
-/* Project "View Details" trigger + modal link/close buttons */
-.viewmore-btn:hover { background: color-mix(in oklab, var(--accent) 12%, transparent) !important; border-color: color-mix(in oklab, var(--accent) 60%, transparent) !important; }
-.viewmore-btn:hover .viewmore-arrow { transform: translateX(4px); }
+/* Project modal link/close buttons */
 .modal-link-btn:hover { border-color: color-mix(in oklab, var(--accent) 50%, transparent) !important; background: color-mix(in oklab, var(--accent) 12%, transparent) !important; color: var(--text) !important; }
 [data-modalclose-btn]:hover { border-color: var(--border-2) !important; background: var(--surface) !important; color: var(--text) !important; }
 
@@ -226,6 +224,20 @@ button:focus-visible,
   /* About CGPA card: constrain width so it doesn't stretch full row width */
   .about-meta-card { max-width: 220px !important; width: auto !important; }
 }
+
+/* ─── ChatBot Widget ──────────────────────────────────────────────────────── */
+.chat-bubble:hover {
+  border-color: var(--accent) !important;
+  background: color-mix(in oklab, var(--accent) 15%, transparent) !important;
+  box-shadow: 0 0 30px -6px var(--accent) !important;
+}
+
+.chat-typing span {
+  animation: pulseGlow 1.4s infinite ease-in-out;
+}
+.chat-typing span:nth-child(1) { animation-delay: 0s; }
+.chat-typing span:nth-child(2) { animation-delay: 0.2s; }
+.chat-typing span:nth-child(3) { animation-delay: 0.4s; }
 
 /* ─── Mobile (≤ 820px) ──────────────────────────────────────────────────── */
 @media (max-width: 820px) {
